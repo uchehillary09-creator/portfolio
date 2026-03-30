@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hillary Uche Anthony — Full Stack Developer</title>
+  <meta name="description" content="Hillary Uche Anthony — Full Stack Developer & Creator of Elite, Premium Web Experiences." />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Apply saved theme before paint to prevent flash -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('hua-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- ── NAVIGATION ──────────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">H.U.A</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="nav-social">
+          <a href="https://github.com/uchehillary09-creator" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://wa.me/2348076550226" target="_blank" rel="noopener">WhatsApp ↗</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">
+          <div class="theme-toggle-thumb"></div>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav-mobile" id="mobileNav" aria-hidden="true">
+    <button class="nav-mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ── HERO ────────────────────────────────────────────────── -->
+  <main>
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Full Stack Developer</p>
+
+        <h1 class="hero-name">
+          Hillary<br>
+          <span class="accent">Uche</span><br>
+          Anthony
+        </h1>
+
+        <p class="hero-role">Creator of Elite &amp; Premium Web Experiences</p>
+
+        <p class="hero-tagline">
+          <span id="typewriter"></span><span class="cursor" aria-hidden="true"></span>
+        </p>
+
+        <div class="hero-cta">
+          <a href="projects.html" class="btn btn-primary">View My Work ↗</a>
+          <!-- Replace assets/cv.pdf with your actual CV file -->
+          <a href="assets/cv.pdf" class="btn btn-ghost" download="Hillary_Uche_Anthony_CV.pdf">Download CV ↓</a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── FOOTER ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">H.U.A</div>
+      <p class="footer-copy">&copy; <span id="year"></span> Hillary Uche Anthony. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/uchehillary09-creator" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://wa.me/2348076550226" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

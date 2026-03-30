@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Hillary Uche Anthony</title>
+  <meta name="description" content="Selected works by Hillary Uche Anthony — elite full stack web projects." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    (function(){
+      var t = localStorage.getItem('hua-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- ── NAVIGATION ──────────────────────────────────────────── -->
+  <nav class="nav" role="navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">H.U.A</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="nav-social">
+          <a href="https://github.com/uchehillary09-creator" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://wa.me/2348076550226" target="_blank" rel="noopener">WhatsApp ↗</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <div class="theme-toggle-thumb"></div>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="mobileNav" aria-hidden="true">
+    <button class="nav-mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <!-- ── PAGE HEADER ────────────────────────────────────────── -->
+    <header class="page-header">
+      <span class="page-header-tag">Selected Works</span>
+      <h1>Projects that<br>Define Elite</h1>
+      <div class="page-header-line"></div>
+    </header>
+
+    <!-- ── PROJECTS SECTION ───────────────────────────────────── -->
+    <section aria-label="Projects">
+      <div class="container">
+
+        <div class="reveal" style="margin-bottom: 64px;">
+          <span class="section-tag">What I've Built</span>
+          <p class="section-desc" style="margin-bottom: 0;">
+            Each project here represents a problem solved, a standard raised, and a client who got
+            more than they expected. Replace these with your actual projects.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1 -->
+          <article class="project-card glass reveal">
+            <div class="project-num">Project 01</div>
+            <h2 class="project-name">Nexus Commerce</h2>
+            <p class="project-desc">
+              A full-stack e-commerce platform built for scale. Features real-time inventory
+              management, Stripe payment integration, role-based admin dashboard, and sub-second
+              load times. Handling 10,000+ SKUs without breaking a sweat.
+            </p>
+            <div class="project-stack">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Stripe API</span>
+              <span class="tag">Redis</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card glass reveal reveal-d1">
+            <div class="project-num">Project 02</div>
+            <h2 class="project-name">Aura Analytics</h2>
+            <p class="project-desc">
+              A business intelligence dashboard delivering live reporting, interactive data
+              visualisations, and granular role-based access control. Decision-makers get
+              the right data at the right time — beautifully presented.
+            </p>
+            <div class="project-stack">
+              <span class="tag">Next.js</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Chart.js</span>
+              <span class="tag">JWT Auth</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="project-card glass reveal reveal-d2">
+            <div class="project-num">Project 03</div>
+            <h2 class="project-name">Cipher CMS</h2>
+            <p class="project-desc">
+              A headless content management system with custom REST & GraphQL API endpoints,
+              rich-text editor, media management, and multi-tenant architecture. Built for
+              agencies managing multiple client brands from one dashboard.
+            </p>
+            <div class="project-stack">
+              <span class="tag">Vue.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag">AWS S3</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 4 -->
+          <article class="project-card glass reveal">
+            <div class="project-num">Project 04</div>
+            <h2 class="project-name">Luminary Brand</h2>
+            <p class="project-desc">
+              A premium brand website for a luxury fashion label. Zero-latency animations,
+              immersive scroll storytelling, and a Shopify storefront integration. Conversion
+              rates increased by 47% within the first month of launch.
+            </p>
+            <div class="project-stack">
+              <span class="tag">HTML / CSS / JS</span>
+              <span class="tag">Shopify</span>
+              <span class="tag">GSAP</span>
+              <span class="tag">Webflow CMS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 5 -->
+          <article class="project-card glass reveal reveal-d1">
+            <div class="project-num">Project 05</div>
+            <h2 class="project-name">Vault Finance</h2>
+            <p class="project-desc">
+              A fintech web app for tracking personal and business finances. Features bank-level
+              security, multi-currency support, PDF report generation, and a real-time
+              notifications system powered by WebSockets.
+            </p>
+            <div class="project-stack">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">WebSocket</span>
+              <span class="tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 6 -->
+          <article class="project-card glass reveal reveal-d2">
+            <div class="project-num">Project 06</div>
+            <h2 class="project-name">Pulse Social</h2>
+            <p class="project-desc">
+              A real-time social platform with live messaging, story feeds, and algorithmic
+              content discovery. Built to handle concurrent users with socket-based architecture
+              and optimised database queries for millisecond response times.
+            </p>
+            <div class="project-stack">
+              <span class="tag">Next.js</span>
+              <span class="tag">Socket.io</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Redis</span>
+              <span class="tag">Cloudinary</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+        </div><!-- /projects-grid -->
+
+        <!-- CTA -->
+        <div class="reveal" style="text-align: center; margin-top: 80px; padding: 60px 40px; border-radius: 8px;" class="glass">
+          <p style="font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px;">Ready to Build Something Elite?</p>
+          <h3 style="font-size: clamp(1.6rem, 3vw, 2.2rem); text-transform: uppercase; letter-spacing: 0.06em; color: var(--text); margin-bottom: 32px;">
+            Let's Create Your Next<br>Masterpiece Together
+          </h3>
+          <a href="contact.html" class="btn btn-primary">Start a Project ↗</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">H.U.A</div>
+      <p class="footer-copy">&copy; <span id="year"></span> Hillary Uche Anthony. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/uchehillary09-creator" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://wa.me/2348076550226" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
