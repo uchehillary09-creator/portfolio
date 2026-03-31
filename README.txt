@@ -37,7 +37,7 @@ Search for these placeholders across all HTML files and replace them:
     → The "Download CV" button already links to it.
 
 [ ] GITHUB LINK
-    → Replace: https://github.com/hillaryuche
+    → Replace: https://github.com/uchehillary09-creator
     → With your actual GitHub profile URL.
 
 [ ] EMAIL ADDRESS
